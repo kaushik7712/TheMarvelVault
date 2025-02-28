@@ -1,0 +1,504 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: black;
+}
+
+nav {
+  background-color: #0fbaba;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  position:relative;
+  top: 5px;
+  
+  
+  background: transparent;
+  
+  text-decoration: none;
+  
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-left: 15px;
+}
+
+.menu li a {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  
+}
+
+.menu li a:hover {
+  color: #b36200;
+}
+
+
+
+header {
+  background-color:#222;
+  padding: 10px;
+  text-align: center;
+  
+  
+}
+
+.about {
+  font-family: 'Playfair Display', serif;
+  font-size: 27px;
+  font-weight: bold;
+  color: #ffffff;
+  border:2px solid #222;
+  border-radius: 2px;
+  background-color: #222;
+  width:70%;
+  margin:auto;
+  
+}
+
+.content {
+  display: flex;
+  margin: 40px;
+  padding-right:-20px; 
+  max-width: 100%;
+}
+
+  
+
+
+
+.text {
+  max-width: 500px;
+  text-align: justify;
+  
+  
+}
+
+.text h2 {
+  position: relative;
+  
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  
+
+}
+
+.text p {
+  
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  
+}
+
+  .text ul li {
+  
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: 'Poppins',sans-serif;
+ font-weight: 300;
+  
+  }
+  
+
+  /*footers*/
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* DARK MODE */
+  
+body.light-mode {
+  background-color: #ffffff;
+  color: #333;
+}
+
+body.light-mode h2 {
+  color: #000;
+}
+  body.light-mode span {
+  color: #000;
+  }
+
+body.light-mode p {
+  color: #333;
+}
+
+body.dark-mode {
+  background-color: #222;
+  color: #eee;
+}
+
+body.dark-mode h2 {
+  color: #fff;
+}
+
+body.dark-mode p {
+  color: #ddd;
+}
+  .read-more-content {
+      display: none;
+    }
+    
+    .read-more-toggle {
+      color: #94760a;
+      cursor: pointer;
+    }
+
+header.dark-mode {
+  background-color: #000000
+
+
+     }
+  
+/*movies part*/
+
+.content {
+  display: flex;
+  margin: 40px;
+  padding-right:40px;
+padding-left: 40px;
+}
+
+  
+
+
+
+.text {
+  max-width:100%;
+  text-align: justify;
+  
+  
+}
+
+.text h2 {
+  position: relative;
+  
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  
+
+}
+
+.text p {
+  
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  
+}
+
+  .text ul li {
+  
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: 'Poppins',sans-serif;
+ font-weight: 300;
+  
+  }
+
+  /* comics part*/
+
+.texts {
+  max-width: 100%;
+  text-align: justify;
+  
+  
+}
+
+.texts h2 {
+  position: relative;
+  
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  
+
+}
+
+.texts p {
+  
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  
+}
+  .texts ul li {
+  
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: 'Poppins',sans-serif;
+ font-weight: 300;
+  
+  }
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+/* Media query for mobile */
+@media screen and (max-width: 600px) {
+  
+  /* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: black;
+}
+
+nav {
+  background-color: #0fbaba;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  position:relative;
+  top: 5px;
+  
+  
+  background: transparent;
+  
+  text-decoration: none;
+  
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-left: 15px;
+}
+
+.menu li a {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  
+}
+
+.menu li a:hover {
+  color: #b36200;
+}
+
+
+
+header {
+  background-color:#222;
+  padding: 10px;
+  text-align: center;
+  
+  
+}
+
+.about {
+  font-family: 'Playfair Display', serif;
+  font-size: 27px;
+  font-weight: bold;
+  color: #ffffff;
+  border:2px solid #222;
+  border-radius: 2px;
+  background-color: #222;
+  width:70%;
+  margin:auto;
+  
+}
+
+/*movies part*/
+
+.content {
+  display: flex;
+  margin: 20px;
+  padding-right:20px;
+  padding-left: 20px;
+}
+
+  
+
+
+
+.text {
+  max-width: 500px;
+  text-align: justify;
+  
+  
+}
+
+.text h2 {
+  position: relative;
+  
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  
+
+}
+
+.text p {
+  
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  
+}
+
+  .text ul li {
+  
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: 'Poppins',sans-serif;
+ font-weight: 300;
+  
+  }
+
+  /* comics part*/
+
+.texts {
+  max-width: 500px;
+  text-align: justify;
+  
+  
+}
+
+.texts h2 {
+  position: relative;
+  
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  
+
+}
+
+.texts p {
+  
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  
+}
+  .texts ul li {
+  
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: 'Poppins',sans-serif;
+ font-weight: 300;
+  
+  }
+  
+  
+
+  /*footers*/
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* DARK MODE */
+  
+body.light-mode {
+  background-color: #ffffff;
+  color: #333;
+}
+
+body.light-mode h2 {
+  color: #000;
+}
+  body.light-mode span {
+  color: #000;
+  }
+
+body.light-mode p {
+  color: #333;
+}
+
+body.dark-mode {
+  background-color: #222;
+  color: #eee;
+}
+
+body.dark-mode h2 {
+  color: #fff;
+}
+
+body.dark-mode p {
+  color: #ddd;
+}
+  .read-more-content {
+      display: none;
+    }
+    
+    .read-more-toggle {
+      color: #94760a;
+      cursor: pointer;
+    }
+
+header.dark-mode {
+  background-color: #000000
+
+
+     }
+  
+    }
